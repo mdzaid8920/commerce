@@ -1,0 +1,136 @@
+.container{
+    width: 100%;
+    margin-top: 2%;
+    /* border: 1px solid red; */
+}
+.carousel-item{
+    max-height: 500px;
+    text-align: center;
+    object-fit: cover;
+}
+.products-card{
+    display: flex;
+    flex-flow: row wrap;
+}
+.card{
+    margin-left: 1.5%;
+    width: 23%;
+    margin: 1.0%;
+    max-height: 300px;
+}
+.img-fluid{
+    width: 100%;
+    height: 250px;
+     /* object-fit: fill; */
+    object-fit: cover; 
+}
+.addToCart{
+    margin-left: 45%;
+    width: 55%;
+    text-transform: capitalize;
+    
+}
+.cart-icon{
+    /* color: #4CAF50; */
+    color: rgb(16, 168, 206);
+}
+.price{
+    font-size: 1.2rem;
+    /* color: #4CAF50; */
+    color: #00BCD4;
+}
+
+.test .fa-shopping:hover{
+    color: red;
+    background-color: yellow;
+}
+.Detail-btn{
+    /* background-color: #4CAF50; */
+    padding: 2%;
+    /* color: #4CAF50; */
+    
+    color: rgb(62, 197, 231);
+    width: 45%;
+    height: 20%;
+    margin-left: 40%;
+    
+}
+.Detail-btn:hover{
+    color: #1488be;
+}
+.detailText{
+    margin-left: 40%;
+}
+li{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+
+
+
+/* Modal Design */
+.form-design {
+    border: 1px solid rgba(207, 216, 220, 1);
+    outline: none;
+    width: 34.5vw;
+    padding: 1.5%;
+    border-radius: 3px;
+}
+
+.form-design:focus {
+    box-shadow: 0 0 5px rgba(0, 150, 136, 1);
+    padding: 3px 0px 3px 3px;
+    margin: 5px 1px 3px 0px;
+    border: 1px solid rgba(0, 150, 136, 1);
+    padding: 1.5%;
+}
+.btn-design{
+    /* margin-left: 13.1vw; */
+    /* background-color: rgba(0, 150, 136, 1); */
+    background-color: rgb(3, 182, 164);
+    color: white;
+}
+.btn-login:hover{
+    color: white;
+    background-color: rgb(4, 138, 127);
+}
+.tab-design{
+    /* background-color: rgba(0, 150, 136, 1) !important; */
+    background-color: rgb(3, 182, 164) !important; 
+    color: white  !important;
+}
+.designLoginBtnA{
+    background-color: navy;
+    border: 2px solid red !important;
+}
+
+.login_signup_btn{
+    display: none;
+}
+.signOut_btn{
+    display: none;
+}
+.cart_total{
+    display: flex;
+    letter-spacing: 1px;
+    width: 70%;
+    margin-left: 13%;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+}
+/* .carousel-inner{
+    position: relative;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+    object-fit: fill;
+} */
+img{
+    object-fit: cover;
+}
+
