@@ -134,3 +134,13 @@ img{
     object-fit: cover;
 }
 
+/* Media Quries */
+@media (max-width: 768px) {
+    .card{
+        /* margin-left: 1.5%; */
+        width: 100%;
+        /* width: 23%; */
+        /* margin: 1.0%; */
+        /* max-height: 300px; */
+    }
+}
